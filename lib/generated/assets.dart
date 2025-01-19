@@ -6,5 +6,6 @@ class Assets {
   static const String fontsInterMedium = 'assets/fonts/Inter-Medium.otf';
   static const String fontsInterRegular = 'assets/fonts/Inter-Regular.otf';
   static const String fontsInterSemiBold = 'assets/fonts/Inter-SemiBold.otf';
+  static const String iconsEventlyLogo = 'assets/icons/evently_logo.png';
 
 }
