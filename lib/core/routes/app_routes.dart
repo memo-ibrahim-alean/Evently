@@ -6,6 +6,8 @@ import 'package:evently/modules/signUp/sign_up_view.dart';
 import 'package:evently/modules/splash/splash_view.dart';
 import 'package:flutter/material.dart';
 
+import '../../modules/layout/layout_view.dart';
+
 abstract class AppRoutes {
   static Route onGenerateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -37,6 +39,14 @@ abstract class AppRoutes {
           builder: (context) => ForgetPasswordView(),
           settings: settings,
         );
+
+      case PagesRouteName.layout:
+        {
+          return MaterialPageRoute(
+            builder: (context) => const LayoutView(),
+            settings: settings,
+          );
+        }
 
         // if user write other route
       default:

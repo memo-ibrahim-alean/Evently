@@ -7,5 +7,13 @@ class Assets {
   static const String fontsInterRegular = 'assets/fonts/Inter-Regular.otf';
   static const String fontsInterSemiBold = 'assets/fonts/Inter-SemiBold.otf';
   static const String iconsEventlyLogo = 'assets/icons/evently_logo.png';
+  static const String iconsFaceSuccessIcon = 'assets/icons/face_success_icon.json';
+  static const String iconsFaceWrongIcon = 'assets/icons/face_wrong_icon.json';
+  static const String iconsGoogleIcon = 'assets/icons/google_icon.png';
+  static const String iconsLockIcon = 'assets/icons/lock_icon.png';
+  static const String iconsMailIcon = 'assets/icons/mail_icon.png';
+  static const String iconsPersonIcon = 'assets/icons/person_icon.png';
+  static const String imagesForgetPasswordImg = 'assets/images/forget_password_img.png';
+  static const String signInSignInView = 'lib/modules/signIn/sign_in_view.dart';
 
 }
