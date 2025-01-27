@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:evently/core/constants/app_assets.dart';
+import 'package:evently/core/extensions/size_ext.dart';
 import 'package:evently/core/routes/pages_route_name.dart';
 import 'package:flutter/material.dart';
 
@@ -29,13 +30,13 @@ class _SplashViewState extends State<SplashView> {
 
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
+    // var size = MediaQuery.of(context).size;
     return Scaffold(
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(AppAssets.eventlyLogo, height: size.height * 0.25),
+            Image.asset(AppAssets.eventlyLogo, height: 0.25.height),
           ],
         ),
       ),
