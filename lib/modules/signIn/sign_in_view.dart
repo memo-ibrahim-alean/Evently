@@ -4,6 +4,7 @@ import 'package:evently/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 
+
 import '../../core/extensions/validations.dart';
 import '/core/constants/app_assets.dart';
 import '/core/extensions/extensions.dart';

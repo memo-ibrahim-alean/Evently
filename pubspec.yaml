@@ -16,6 +16,8 @@ dependencies:
   flutter_easyloading: ^3.0.5
   lottie: ^3.3.1
   bot_toast: ^4.1.3
+  flutter_svg: ^2.0.17
+
 
 dev_dependencies:
   flutter_test:
@@ -28,8 +30,7 @@ flutter:
   assets:
     - assets/icons/
     - assets/images/
-    - assets/translations/
-    - lib/modules/signIn/sign_in_view.dart
+    - assets/images/category/
 
   fonts:
     - family: "Inter"

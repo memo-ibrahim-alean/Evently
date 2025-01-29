@@ -13,6 +13,7 @@ class Assets {
   static const String iconsLockIcon = 'assets/icons/lock_icon.png';
   static const String iconsMailIcon = 'assets/icons/mail_icon.png';
   static const String iconsPersonIcon = 'assets/icons/person_icon.png';
+  static const String iconsSun = 'assets/icons/Sun.svg';
   static const String imagesForgetPasswordImg = 'assets/images/forget_password_img.png';
   static const String signInSignInView = 'lib/modules/signIn/sign_in_view.dart';
 
