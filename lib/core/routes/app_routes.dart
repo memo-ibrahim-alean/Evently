@@ -1,4 +1,5 @@
 import 'package:evently/core/routes/pages_route_name.dart';
+import 'package:evently/modules/create_event/create_event_screen.dart';
 import 'package:evently/modules/forgetPassword/forget_password_view.dart';
 import 'package:evently/modules/onBoarding/on_boarding_view.dart';
 import 'package:evently/modules/signIn/sign_in_view.dart';
@@ -34,7 +35,7 @@ abstract class AppRoutes {
           builder: (context) => SignUpView(),
           settings: settings,
         );
-        case PagesRouteName.ForgetPassword:
+      case PagesRouteName.ForgetPassword:
         return MaterialPageRoute(
           builder: (context) => ForgetPasswordView(),
           settings: settings,
@@ -47,8 +48,15 @@ abstract class AppRoutes {
             settings: settings,
           );
         }
+      case PagesRouteName.createEventView:
+        {
+          return MaterialPageRoute(
+            builder: (context) => const CreateEventScreen(),
+            settings: settings,
+          );
+        }
 
-        // if user write other route
+      // if user write other route
       default:
         return MaterialPageRoute(
           builder: (context) => SplashView(),

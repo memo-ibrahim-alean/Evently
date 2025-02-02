@@ -1,7 +1,7 @@
 import 'package:evently/core/extensions/size_ext.dart';
 import 'package:evently/core/widgets/custom_elevated_btn.dart';
 import 'package:evently/modules/layout/widgets/category_card.dart';
-import 'package:evently/modules/layout/widgets/custom_tab_bar_item.dart';
+import 'package:evently/core/widgets/custom_tab_bar_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

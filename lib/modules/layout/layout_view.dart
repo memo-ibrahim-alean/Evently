@@ -1,3 +1,5 @@
+import 'package:evently/core/extensions/context_extension.dart';
+import 'package:evently/core/routes/pages_route_name.dart';
 import 'package:evently/core/theme/color_palette.dart';
 import 'package:evently/modules/layout/home_tab.dart';
 import 'package:flutter/material.dart';
@@ -31,7 +33,9 @@ class _LayoutViewState extends State<LayoutView> {
           ),
         ),
         backgroundColor: ColorPalette.primaryColor,
-        onPressed: () {},
+        onPressed: () {
+          context.goToNamed(PagesRouteName.createEventView);
+        },
         child: Icon(
           Icons.add,
           color: ColorPalette.white,

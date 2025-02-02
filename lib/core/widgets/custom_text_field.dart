@@ -101,6 +101,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
       focusNode: widget.focusNode,
       cursorColor: theme.primaryColor,
       decoration: InputDecoration(
+
         labelText: widget.label,
         labelStyle: theme.textTheme.bodyMedium?.copyWith(
           color: const Color(0xFF777777),
@@ -132,7 +133,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
           fontWeight: FontWeight.w500,
         ),
         counterText: "",
-        fillColor: Colors.white,
+        fillColor: Colors.transparent,
         filled: true,
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(16),
